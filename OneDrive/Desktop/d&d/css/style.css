@@ -1,0 +1,33 @@
+/* header */
+
+.form-container{
+    padding: 15px;
+}
+
+.sheet-header{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.sheet-header__mode-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.main-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.left-side{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-side > div:first-child{
+    background-color: brown;
+}
+.left-side > div:last-child{
+    background-color: green;
+}
