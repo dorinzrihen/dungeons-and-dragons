@@ -26,8 +26,81 @@
 }
 
 .left-side > div:first-child{
-    background-color: brown;
+    background-color: rgba(189, 180, 180, 0.274);
 }
+
+
+/* div:first-child */
+.left-side > div:first-child >div{
+    border: 1px black solid;
+    height: 100px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.left-side > div:first-child >div > input{
+    border: none;
+    height: 90%;
+    width: 100%;
+    text-align: center;
+}
+
+.left-side > div:first-child >div > div{
+    background-color: cadetblue;
+    height: 30px;
+    width: 50px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    border-radius: 70px;
+}
+
+.left-side > div:first-child >div > div > input{
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+    width: 50px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    border-radius: 70px;
+}
+
+/* <!-- div:last-child --> */
 .left-side > div:last-child{
-    background-color: green;
+    padding: 0 5px;
+}
+
+
+.left-side > div:last-child > div > div{
+    display: flex;
+    align-items: center;
+}
+.left-side > div:last-child > div > div > input[type = "text"]{
+    width: 100px;
+}
+
+.left-side > div:last-child .top{
+    margin-bottom: 20px;
+}
+.left-side > div:last-child .top > div{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.left-side > div:last-child .top > div input{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.left-side > div:last-child input[type = "text"]{
+    border: none;
+    border-bottom: 1px solid black;
 }
